@@ -1,0 +1,21 @@
+---Beleseke sa ovog projekta---
+
+* precica za generisanje konstruktora - ctor
+* precica za generisanje property-a - prop
+
+--Database setup--
+* ORM (Object Relation Mapper)
+	-generise tabele u bazi na osnovu model klasa
+	-azurira bazu pomocu migrations
+	-ORM koji se koristi u ovom projektu je Entity Framework (Microsoft)
+	-pogodan za jednostavnije aplikacije
+
+* DAO (Database Access Object)
+	-rucno kreiranje tabela
+	-tradicionalni nacini pristupa bazama podataka
+	-rucno pisanje SQL upita
+	-pozeljniji u stvarnom radu u kompanijama
+	-pruza vecu vidljivost pri pronalazenju problema
+
+-ukoliko nakon promene u css-u se promena na prikazuje na stranici, potrebno je pritisnuti 
+Shift i kliknuti na refresh zato sto su stilovi kesirani (ovo ce primorati server da ponovo ucita css)

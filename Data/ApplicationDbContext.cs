@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using QuizzWebApp.Models;
 
 namespace QuizzWebApp.Data
 {
@@ -12,5 +13,6 @@ namespace QuizzWebApp.Data
             : base(options)
         {
         }
+        public DbSet<QuizzWebApp.Models.Question> Question { get; set; }
     }
 }

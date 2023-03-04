@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dilpd\\source\\repos\\QuizzWebApp\\QuizzWebApp.csproj": {}
+    "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizzWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dilpd\\source\\repos\\QuizzWebApp\\QuizzWebApp.csproj": {
+    "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizzWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dilpd\\source\\repos\\QuizzWebApp\\QuizzWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizzWebApp.csproj",
         "projectName": "QuizzWebApp",
-        "projectPath": "C:\\Users\\dilpd\\source\\repos\\QuizzWebApp\\QuizzWebApp.csproj",
+        "projectPath": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizzWebApp.csproj",
         "packagesPath": "C:\\Users\\dilpd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dilpd\\source\\repos\\QuizzWebApp\\obj\\",
+        "outputPath": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dilpd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,11 +54,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.18, )"
+              "version": "[3.1.32, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.18, )"
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -79,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
