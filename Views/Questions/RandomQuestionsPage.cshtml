@@ -19,21 +19,24 @@
         }
 
         #div1 {
-            background-color: blue;
+            
         }
 
         #div2 {
-            background-color: green;
+            
             flex-grow: 1;
         }
     </style>
 </head>
 <body>
-    <div id="div1">
+    <div id="div1" class="text-center">
         @foreach (var item in Model)
         {
+            <br />
             <h1>@Html.DisplayFor(modelItem => item.quizzQuestion)</h1>
+            <p>&nbsp;</p>
             <button class="btn btn-primary" onclick="revealAnswer(this)">Prikaži odgovor</button>
+            <p>&nbsp;</p>
             <h2 id="answer" style="display:none">@Html.DisplayFor(modelItem => item.quizzAnswer)</h2>
         }
     </div>

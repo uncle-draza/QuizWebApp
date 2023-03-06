@@ -8848,9 +8848,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizzWebApp.csproj",
-      "projectName": "QuizzWebApp",
-      "projectPath": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizzWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizWebApp.csproj",
+      "projectName": "QuizWebApp",
+      "projectPath": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\QuizWebApp.csproj",
       "packagesPath": "C:\\Users\\dilpd\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dilpd\\Desktop\\QuizWebApp\\obj\\",
       "projectStyle": "PackageReference",

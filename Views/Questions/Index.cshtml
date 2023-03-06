@@ -1,35 +1,42 @@
 ﻿@model IEnumerable<QuizzWebApp.Models.Question>
 
 @{
-    ViewData["Title"] = "Sva pitanjaa";
+    ViewData["Title"] = "Sva pitanja";
 }
 
-<h1>Sva Pitanja</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sva pitanja</title>
+</head>
+<body>
+    <div style="padding:20px">
+        <h1>Sva Pitanja</h1>
 
-<p>
-    <a asp-action="Create">Dodajte novo pitanje</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.quizzQuestion)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.quizzQuestion)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Uredi</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Prikazi</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Ukloni</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+        <p>
+            <a asp-action="Create">Dodajte novo pitanje</a>
+        </p>
+        <table class="table" style="margin:-10px">
+            <thead>
+                
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td align="left">
+                            @Html.DisplayFor(modelItem => item.quizzQuestion)
+                        </td>
+                        <td align="right">
+                            <a asp-action="Edit" asp-route-id="@item.Id">Uredi</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Prikaži</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Ukloni</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
