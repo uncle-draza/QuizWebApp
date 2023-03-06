@@ -19,3 +19,6 @@
 
 -ukoliko nakon promene u css-u se promena na prikazuje na stranici, potrebno je pritisnuti 
 Shift i kliknuti na refresh zato sto su stilovi kesirani (ovo ce primorati server da ponovo ucita css)
+
+
+++LOZINKA ZA LOGOVANJE NA MOJ NALOG: Lozink@123

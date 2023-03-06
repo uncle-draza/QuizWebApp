@@ -1,0 +1,61 @@
+﻿@model IEnumerable<QuizzWebApp.Models.Question>
+
+@{
+    ViewData["Title"] = "Nasumično pitanje";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Divs Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #div1 {
+            background-color: blue;
+        }
+
+        #div2 {
+            background-color: green;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        @foreach (var item in Model)
+        {
+            <h1>@Html.DisplayFor(modelItem => item.quizzQuestion)</h1>
+            <button class="btn btn-primary" onclick="revealAnswer(this)">Prikaži odgovor</button>
+            <h2 id="answer" style="display:none">@Html.DisplayFor(modelItem => item.quizzAnswer)</h2>
+        }
+    </div>
+    <div id="div2" >
+        <form asp-controller="Questions" asp-action="ShowRandomQuestion">
+            <div class="form-group" style="position:absolute; bottom:0; right:0; margin-right:15px">
+                <input type="submit" value="Sledeće pitanje" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<script>
+    function revealAnswer(button) {
+        document.getElementById("answer").style.display = "block";
+    }
+</script>
+
+
+

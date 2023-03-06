@@ -38,6 +38,16 @@ namespace QuizzWebApp.Controllers
             return View("Index", await _context.Question.Where(q => q.quizzQuestion.Contains(SearchPhrase)).ToListAsync());
         }
 
+        public async Task<IActionResult> ShowRandomQuestionForm()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> ShowRandomQuestion()
+        {
+            var question = await _context.Question.OrderBy(q => Guid.NewGuid()).FirstOrDefaultAsync();
+            return View("RandomQuestionsPage", new List<Question> { question }); //OVO RADI ali se pitanja ponavljaju 
+        }
         // GET: Questions/Details/5
         public async Task<IActionResult> Details(int? id)
         {

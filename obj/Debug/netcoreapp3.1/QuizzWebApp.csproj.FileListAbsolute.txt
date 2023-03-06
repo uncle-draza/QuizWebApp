@@ -169,3 +169,5 @@ C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Questions\
 C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Questions\Edit.cshtml.g.cs
 C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Questions\Index.cshtml.g.cs
 C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Questions\ShowSearchForm.cshtml.g.cs
+C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Questions\ShowRandomQuestionForm.cshtml.g.cs
+C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Questions\RandomQuestionsPage.cshtml.g.cs

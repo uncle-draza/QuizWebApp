@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using QuizzWebApp.Data;
 using QuizzWebApp.Models;
 using System;
 using System.Collections.Generic;
@@ -12,6 +14,7 @@ namespace QuizzWebApp.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
         public HomeController(ILogger<HomeController> logger)
         {
