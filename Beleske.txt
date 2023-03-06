@@ -21,4 +21,6 @@
 Shift i kliknuti na refresh zato sto su stilovi kesirani (ovo ce primorati server da ponovo ucita css)
 
 
+-git komanda za promenu poslednje commit poruke: git commit --amend
+
 ++LOZINKA ZA LOGOVANJE NA MOJ NALOG: Lozink@123

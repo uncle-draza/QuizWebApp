@@ -170,3 +170,4 @@ C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\QuizWebApp.csproj.Copy
 C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\QuizWebApp.dll
 C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\QuizWebApp.pdb
 C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\QuizWebApp.genruntimeconfig.cache
+C:\Users\dilpd\Desktop\QuizWebApp\obj\Debug\netcoreapp3.1\QuizWebApp.csproj.AssemblyReference.cache
